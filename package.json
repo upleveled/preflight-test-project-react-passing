@@ -50,6 +50,7 @@
     "@upleveled/eslint-plugin-upleveled": "2.1.6",
     "eslint": "8.38.0",
     "eslint-config-react-app": "7.0.1",
+    "eslint-config-upleveled": "^4.0.12",
     "eslint-import-resolver-typescript": "3.5.5",
     "eslint-plugin-flowtype": "8.0.3",
     "eslint-plugin-import": "2.27.5",
@@ -62,6 +63,8 @@
     "eslint-plugin-sonarjs": "0.19.0",
     "eslint-plugin-testing-library": "5.10.3",
     "eslint-plugin-unicorn": "46.0.0",
+    "eslint-plugin-upleveled": "2.1.6",
+    "postcss-styled-syntax": "^0.4.0",
     "typescript": "5.0.4"
   }
 }
