@@ -4300,7 +4300,7 @@ eslint-config-react-app@7.0.1, eslint-config-react-app@^7.0.1:
     eslint-plugin-react-hooks "^4.3.0"
     eslint-plugin-testing-library "^5.0.1"
 
-eslint-config-upleveled@^4.1.0:
+eslint-config-upleveled@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/eslint-config-upleveled/-/eslint-config-upleveled-4.1.0.tgz#e9def68f2835462849809894a66ba05773736695"
   integrity sha512-Pf15AkYQsZt2bRl8IzMrfuyLJUcfiahusKqMFChVLsR6LKBO6Im+l6tMEnQ+BnxJTiZ2WXibqpXfWxAQiQwnCA==
@@ -9131,7 +9131,7 @@ stylelint-config-recommended@11.0.0, stylelint-config-recommended@^11.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-11.0.0.tgz#b1cb7d71bd92f9b8593f93c2ca6df16ed7d61522"
   integrity sha512-SoGIHNI748OCZn6BxFYT83ytWoYETCINVHV3LKScVAWQQauWdvmdDqJC5YXWjpBbxg2E761Tg5aUGKLFOVhEkA==
 
-stylelint-config-upleveled@^1.0.2:
+stylelint-config-upleveled@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/stylelint-config-upleveled/-/stylelint-config-upleveled-1.0.2.tgz#838ad176d57db1c5b86a075c1522638903d69198"
   integrity sha512-/PZH+e57HooxosBVISSmySuThLJWuUfgj4FEAlLxS+6V6X+ZKdtonfuxxfKoYtQKEZUyBg+yqrwaa5g6LbWuyw==
@@ -9152,7 +9152,7 @@ stylelint-scss@^4.3.0, stylelint-scss@^4.6.0:
     postcss-selector-parser "^6.0.11"
     postcss-value-parser "^4.2.0"
 
-stylelint@^15.5.0:
+stylelint@15.5.0:
   version "15.5.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-15.5.0.tgz#f16c238231f3f32e62da8a88969821d237eae8a6"
   integrity sha512-jyMO3R1QtE5mUS4v40+Gg+sIQBqe7CF1xPslxycDzNVkIBCUD4O+5F1vLPq16VmunUTv4qG9o2rUKLnU5KkVeQ==
