@@ -62,9 +62,6 @@
     "eslint-plugin-testing-library": "5.10.3",
     "eslint-plugin-unicorn": "46.0.0",
     "eslint-plugin-upleveled": "2.1.7",
-    "postcss-styled-syntax": "^0.4.0",
-    "stylelint": "15.5.0",
-    "stylelint-config-upleveled": "1.0.2",
     "typescript": "5.0.4"
   }
 }
