@@ -11,8 +11,8 @@ dependencies:
     specifier: 14.4.3
     version: 14.4.3(@testing-library/dom@9.2.0)
   '@upleveled/react-scripts':
-    specifier: 5.0.8
-    version: 5.0.8(eslint@8.39.0)(react@18.2.0)(typescript@5.0.4)
+    specifier: 5.0.10
+    version: 5.0.10(eslint@8.39.0)(react@18.2.0)(typescript@5.0.4)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -2539,8 +2539,8 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: true
 
-  /@upleveled/react-scripts@5.0.8(eslint@8.39.0)(react@18.2.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-WaLvKDOqWNm83xrDaSiQ1JlhZCbQV6kiMiGPUKYrukDxoyt7gOejRpdPVUlSBcrcU6knbrJVBAC97qIDbANztA==}
+  /@upleveled/react-scripts@5.0.10(eslint@8.39.0)(react@18.2.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-jJ7geapYvcVEWVvBW7mxg6dnC8ELa+xYP4/SnMauyvzzNLAECS7Ccs6uJy2cmXv6VJ0qUj3ofNWjYh+DByzddA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
