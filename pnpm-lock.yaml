@@ -60,7 +60,7 @@ devDependencies:
     version: 16.0.2(typescript@5.3.3)
   stylelint-config-upleveled:
     specifier: 1.0.4
-    version: 1.0.4(postcss@8.4.32)(stylelint@16.0.2
+    version: 1.0.4(postcss@8.4.32)(stylelint@16.0.2)
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -8538,7 +8538,7 @@ packages:
     dependencies:
       stylelint: 16.0.2(typescript@5.3.3)
     optionalDependencies:
-      stylelint-scss: 5.3.1(stylelint@16.0.2)
+      stylelint-scss: 6.0.0(stylelint@16.0.2)
     dev: true
 
   /stylelint-config-recommended-scss@14.0.0(postcss@8.4.32)(stylelint@16.0.2):
@@ -8582,21 +8582,6 @@ packages:
       - postcss
       - supports-color
     dev: true
-
-  /stylelint-scss@5.3.1(stylelint@16.0.2):
-    resolution: {integrity: sha512-5I9ZDIm77BZrjOccma5WyW2nJEKjXDd4Ca8Kk+oBapSO4pewSlno3n+OyimcyVJJujQZkBN2D+xuMkIamSc6hA==}
-    requiresBuild: true
-    peerDependencies:
-      stylelint: ^14.5.1 || ^15.0.0
-    dependencies:
-      known-css-properties: 0.29.0
-      postcss-media-query-parser: 0.2.3
-      postcss-resolve-nested-selector: 0.1.1
-      postcss-selector-parser: 6.0.13
-      postcss-value-parser: 4.2.0
-      stylelint: 16.0.2(typescript@5.3.3)
-    dev: true
-    optional: true
 
   /stylelint-scss@6.0.0(stylelint@16.0.2):
     resolution: {integrity: sha512-N1xV/Ef5PNRQQt9E45unzGvBUN1KZxCI8B4FgN/pMfmyRYbZGVN4y9qWlvOMdScU17c8VVCnjIHTVn38Bb6qSA==}
