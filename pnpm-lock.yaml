@@ -41,8 +41,8 @@ devDependencies:
     specifier: 18.2.63
     version: 18.2.63
   '@types/react-dom':
-    specifier: 18.2.19
-    version: 18.2.19
+    specifier: 18.2.20
+    version: 18.2.20
   '@types/testing-library__jest-dom':
     specifier: 5.14.9
     version: 5.14.9
@@ -51,7 +51,7 @@ devDependencies:
     version: 8.57.0
   eslint-config-upleveled:
     specifier: 7.8.1
-    version: 7.8.1(@babel/core@7.21.4)(@types/eslint@8.56.2)(@types/node@20.11.24)(@types/react-dom@18.2.19)(@types/react@18.2.63)(eslint@8.57.0)(globals@14.0.0)(typescript@5.3.3)
+    version: 7.8.1(@babel/core@7.21.4)(@types/eslint@8.56.2)(@types/node@20.11.24)(@types/react-dom@18.2.20)(@types/react@18.2.63)(eslint@8.57.0)(globals@14.0.0)(typescript@5.3.3)
   expect:
     specifier: 29.7.0
     version: 29.7.0
@@ -2157,7 +2157,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.2
       '@testing-library/dom': 9.2.0
-      '@types/react-dom': 18.2.19
+      '@types/react-dom': 18.2.20
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -2325,8 +2325,8 @@ packages:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
     dev: false
 
-  /@types/react-dom@18.2.19:
-    resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
+  /@types/react-dom@18.2.20:
+    resolution: {integrity: sha512-HXN/biJY8nv20Cn9ZbCFq3liERd4CozVZmKbaiZ9KiKTrWqsP7eoGDO6OOGvJQwoVFuiXaiJ7nBBjiFFbRmQMQ==}
     dependencies:
       '@types/react': 18.2.63
 
@@ -4379,7 +4379,7 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@7.8.1(@babel/core@7.21.4)(@types/eslint@8.56.2)(@types/node@20.11.24)(@types/react-dom@18.2.19)(@types/react@18.2.63)(eslint@8.57.0)(globals@14.0.0)(typescript@5.3.3):
+  /eslint-config-upleveled@7.8.1(@babel/core@7.21.4)(@types/eslint@8.56.2)(@types/node@20.11.24)(@types/react-dom@18.2.20)(@types/react@18.2.63)(eslint@8.57.0)(globals@14.0.0)(typescript@5.3.3):
     resolution: {integrity: sha512-jvJefouBciyUlxcxZJl59ORHxluUyE0yt9kWGmBhcl83UPkdMJGOhbxTsg9e0Ubpx1J0BaV34XtgiBga9ARBrA==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -4397,7 +4397,7 @@ packages:
       '@types/eslint': 8.56.2
       '@types/node': 20.11.24
       '@types/react': 18.2.63
-      '@types/react-dom': 18.2.19
+      '@types/react-dom': 18.2.20
       '@typescript-eslint/eslint-plugin': 7.0.2(@typescript-eslint/parser@7.0.2)(eslint@8.57.0)(typescript@5.3.3)
       '@typescript-eslint/parser': 7.0.2(eslint@8.57.0)(typescript@5.3.3)
       eslint: 8.57.0
