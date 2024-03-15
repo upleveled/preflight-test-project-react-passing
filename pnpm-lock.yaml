@@ -62,8 +62,8 @@ devDependencies:
     specifier: 16.2.1
     version: 16.2.1(typescript@5.4.2)
   stylelint-config-upleveled:
-    specifier: 1.0.7
-    version: 1.0.7(postcss@8.4.33)(stylelint@16.2.1)
+    specifier: 1.1.0
+    version: 1.1.0(postcss@8.4.33)(stylelint@16.2.1)
   typescript:
     specifier: 5.4.2
     version: 5.4.2
@@ -7542,15 +7542,6 @@ packages:
       postcss-selector-parser: 6.0.15
     dev: false
 
-  /postcss-selector-parser@6.0.13:
-    resolution: {integrity: sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==}
-    engines: {node: '>=4'}
-    requiresBuild: true
-    dependencies:
-      cssesc: 3.0.0
-      util-deprecate: 1.0.2
-    dev: true
-
   /postcss-selector-parser@6.0.15:
     resolution: {integrity: sha512-rEYkQOMUCEMhsKbK66tbEU9QVIxbhN18YiniAwA7XQYTVBqrBy+P2p5JcdqsHgKM2zWylp8d7J6eszocfds5Sw==}
     engines: {node: '>=4'}
@@ -7558,8 +7549,8 @@ packages:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  /postcss-styled-syntax@0.6.2(postcss@8.4.33):
-    resolution: {integrity: sha512-uJ9IuvbkuKGKkbWw3IoBaZA73eIIjSx8+X0Z9+hY4dez4TzeXOxa4my5cKmkUKWcCg8aOE/n2iuMnpKbZVDmsw==}
+  /postcss-styled-syntax@0.6.4(postcss@8.4.33):
+    resolution: {integrity: sha512-uWiLn+9rKgIghUYmTHvXMR6MnyPULMe9Gv3bV537Fg4FH6CA6cn21WMjKss2Qb98LUhT847tKfnRGG3FhSOgUQ==}
     engines: {node: '>=14.17'}
     peerDependencies:
       postcss: ^8.4.21
@@ -8695,13 +8686,13 @@ packages:
       stylelint: 16.2.1(typescript@5.4.2)
     dev: true
 
-  /stylelint-config-upleveled@1.0.7(postcss@8.4.33)(stylelint@16.2.1):
-    resolution: {integrity: sha512-L+fct8AmdQclq1S3/o81qE409bRD0ow9n6+xixNY/PTXh0/u7+G7UDAwGmFidZR1R4JlsqBH7Dg+BRYJ/tniAA==}
+  /stylelint-config-upleveled@1.1.0(postcss@8.4.33)(stylelint@16.2.1):
+    resolution: {integrity: sha512-EkdNnCcid4iBajNlLjEP1QZepo+smltDY5Bc/ThVJk6qX/NyMdvffiA2jYVekNwKoG13MSqM9+Ywj19jceWLKQ==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
-      stylelint: ^16.1.0
+      stylelint: ^16.2.1
     dependencies:
-      postcss-styled-syntax: 0.6.2(postcss@8.4.33)
+      postcss-styled-syntax: 0.6.4(postcss@8.4.33)
       stylelint: 16.2.1(typescript@5.4.2)
       stylelint-config-css-modules: 4.4.0(stylelint@16.2.1)
       stylelint-config-recommended: 14.0.0(stylelint@16.2.1)
@@ -8719,7 +8710,7 @@ packages:
       known-css-properties: 0.29.0
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.1
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.15
       postcss-value-parser: 4.2.0
       stylelint: 16.2.1(typescript@5.4.2)
     dev: true
