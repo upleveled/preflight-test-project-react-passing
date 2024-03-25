@@ -38,8 +38,8 @@ devDependencies:
     specifier: 20.11.30
     version: 20.11.30
   '@types/react':
-    specifier: 18.2.69
-    version: 18.2.69
+    specifier: 18.2.70
+    version: 18.2.70
   '@types/react-dom':
     specifier: 18.2.22
     version: 18.2.22
@@ -48,7 +48,7 @@ devDependencies:
     version: 8.57.0
   eslint-config-upleveled:
     specifier: 7.8.2
-    version: 7.8.2(@babel/core@7.21.4)(@types/eslint@8.56.5)(@types/node@20.11.30)(@types/react-dom@18.2.22)(@types/react@18.2.69)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3)
+    version: 7.8.2(@babel/core@7.21.4)(@types/eslint@8.56.5)(@types/node@20.11.30)(@types/react-dom@18.2.22)(@types/react@18.2.70)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3)
   expect:
     specifier: 29.7.0
     version: 29.7.0
@@ -60,7 +60,7 @@ devDependencies:
     version: 16.3.0(typescript@5.4.3)
   stylelint-config-upleveled:
     specifier: 1.1.0
-    version: 1.1.0(postcss@8.4.33)(stylelint@16.3.0)
+    version: 1.1.0(postcss@8.4.38)(stylelint@16.3.0)
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -2311,10 +2311,10 @@ packages:
   /@types/react-dom@18.2.22:
     resolution: {integrity: sha512-fHkBXPeNtfvri6gdsMYyW+dW7RXFo6Ad09nLFK0VQWR7yGLai/Cyvyj696gbwYvBnhGtevUG9cET0pmUbMtoPQ==}
     dependencies:
-      '@types/react': 18.2.69
+      '@types/react': 18.2.70
 
-  /@types/react@18.2.69:
-    resolution: {integrity: sha512-W1HOMUWY/1Yyw0ba5TkCV+oqynRjG7BnteBB+B7JmAK7iw3l2SW+VGOxL+akPweix6jk2NNJtyJKpn4TkpfK3Q==}
+  /@types/react@18.2.70:
+    resolution: {integrity: sha512-hjlM2hho2vqklPhopNkXkdkeq6Lv8WSZTpr7956zY+3WS5cfYUewtCzsJLsbW5dEv3lfSeQ4W14ZFeKC437JRQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -4520,7 +4520,7 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@7.8.2(@babel/core@7.21.4)(@types/eslint@8.56.5)(@types/node@20.11.30)(@types/react-dom@18.2.22)(@types/react@18.2.69)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3):
+  /eslint-config-upleveled@7.8.2(@babel/core@7.21.4)(@types/eslint@8.56.5)(@types/node@20.11.30)(@types/react-dom@18.2.22)(@types/react@18.2.70)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3):
     resolution: {integrity: sha512-1on0Nk+Kfp0cqTd4jHVRKjzJ4x62mdYCbkyz+XVPaf7k69sW6GFZRo8iLbN5C8KBiWd98zeofcc62noG0Z3S2w==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -4537,7 +4537,7 @@ packages:
       '@next/eslint-plugin-next': 14.1.3
       '@types/eslint': 8.56.5
       '@types/node': 20.11.30
-      '@types/react': 18.2.69
+      '@types/react': 18.2.70
       '@types/react-dom': 18.2.22
       '@typescript-eslint/eslint-plugin': 7.2.0(@typescript-eslint/parser@7.2.0)(eslint@8.57.0)(typescript@5.4.3)
       '@typescript-eslint/parser': 7.2.0(eslint@8.57.0)(typescript@5.4.3)
@@ -6312,6 +6312,7 @@ packages:
 
   /known-css-properties@0.29.0:
     resolution: {integrity: sha512-Ne7wqW7/9Cz54PDt4I3tcV+hAyat8ypyOGzYRJQfdxnnjeWsTxt1cy8pjvvKeI5kfXuyvULyeeAvwvvtAX3ayQ==}
+    requiresBuild: true
     dev: true
 
   /known-css-properties@0.30.0:
@@ -7774,13 +7775,13 @@ packages:
       postcss: 8.4.38
     dev: true
 
-  /postcss-scss@4.0.9(postcss@8.4.33):
+  /postcss-scss@4.0.9(postcss@8.4.38):
     resolution: {integrity: sha512-AjKOeiwAitL/MXxQW2DliT28EKukvvbEWx3LBmJIRN8KfBGZbRTxNYW0kSqi1COiTZ57nZ9NW06S6ux//N1c9A==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.4.29
     dependencies:
-      postcss: 8.4.33
+      postcss: 8.4.38
     dev: true
 
   /postcss-selector-not@6.0.1(postcss@8.4.31):
@@ -7808,13 +7809,13 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss-styled-syntax@0.6.4(postcss@8.4.33):
+  /postcss-styled-syntax@0.6.4(postcss@8.4.38):
     resolution: {integrity: sha512-uWiLn+9rKgIghUYmTHvXMR6MnyPULMe9Gv3bV537Fg4FH6CA6cn21WMjKss2Qb98LUhT847tKfnRGG3FhSOgUQ==}
     engines: {node: '>=14.17'}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
-      postcss: 8.4.33
+      postcss: 8.4.38
       typescript: 5.4.3
     dev: true
 
@@ -7866,6 +7867,7 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: false
 
   /postcss@8.4.38:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
@@ -8980,7 +8982,7 @@ packages:
       stylelint-scss: 6.0.0(stylelint@16.3.0)
     dev: true
 
-  /stylelint-config-recommended-scss@14.0.0(postcss@8.4.33)(stylelint@16.3.0):
+  /stylelint-config-recommended-scss@14.0.0(postcss@8.4.38)(stylelint@16.3.0):
     resolution: {integrity: sha512-HDvpoOAQ1RpF+sPbDOT2Q2/YrBDEJDnUymmVmZ7mMCeNiFSdhRdyGEimBkz06wsN+HaFwUh249gDR+I9JR7Onw==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -8990,8 +8992,8 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.33
-      postcss-scss: 4.0.9(postcss@8.4.33)
+      postcss: 8.4.38
+      postcss-scss: 4.0.9(postcss@8.4.38)
       stylelint: 16.3.0(typescript@5.4.3)
       stylelint-config-recommended: 14.0.0(stylelint@16.3.0)
       stylelint-scss: 6.0.0(stylelint@16.3.0)
@@ -9006,17 +9008,17 @@ packages:
       stylelint: 16.3.0(typescript@5.4.3)
     dev: true
 
-  /stylelint-config-upleveled@1.1.0(postcss@8.4.33)(stylelint@16.3.0):
+  /stylelint-config-upleveled@1.1.0(postcss@8.4.38)(stylelint@16.3.0):
     resolution: {integrity: sha512-EkdNnCcid4iBajNlLjEP1QZepo+smltDY5Bc/ThVJk6qX/NyMdvffiA2jYVekNwKoG13MSqM9+Ywj19jceWLKQ==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       stylelint: ^16.2.1
     dependencies:
-      postcss-styled-syntax: 0.6.4(postcss@8.4.33)
+      postcss-styled-syntax: 0.6.4(postcss@8.4.38)
       stylelint: 16.3.0(typescript@5.4.3)
       stylelint-config-css-modules: 4.4.0(stylelint@16.3.0)
       stylelint-config-recommended: 14.0.0(stylelint@16.3.0)
-      stylelint-config-recommended-scss: 14.0.0(postcss@8.4.33)(stylelint@16.3.0)
+      stylelint-config-recommended-scss: 14.0.0(postcss@8.4.38)(stylelint@16.3.0)
     transitivePeerDependencies:
       - postcss
     dev: true
