@@ -43,14 +43,14 @@ importers:
         specifier: 18.2.74
         version: 18.2.74
       '@types/react-dom':
-        specifier: 18.2.23
-        version: 18.2.23
+        specifier: 18.2.24
+        version: 18.2.24
       eslint:
         specifier: 8.57.0
         version: 8.57.0
       eslint-config-upleveled:
         specifier: 7.8.3
-        version: 7.8.3(@babel/core@7.21.4)(@types/eslint@8.56.6)(@types/node@20.12.3)(@types/react-dom@18.2.23)(@types/react@18.2.74)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3)
+        version: 7.8.3(@babel/core@7.21.4)(@types/eslint@8.56.6)(@types/node@20.12.3)(@types/react-dom@18.2.24)(@types/react@18.2.74)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3)
       expect:
         specifier: 29.7.0
         version: 29.7.0
@@ -1234,8 +1234,8 @@ packages:
   '@types/range-parser@1.2.4':
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
 
-  '@types/react-dom@18.2.23':
-    resolution: {integrity: sha512-ZQ71wgGOTmDYpnav2knkjr3qXdAFu0vsk8Ci5w3pGAIdj7/kKAyn+VsQDhXsmzzzepAiI9leWMmubXz690AI/A==}
+  '@types/react-dom@18.2.24':
+    resolution: {integrity: sha512-cN6upcKd8zkGy4HU9F1+/s98Hrp6D4MOcippK4PoE8OZRngohHZpbJn1GsaDLz87MqvHNoT13nHvNqM9ocRHZg==}
 
   '@types/react@18.2.74':
     resolution: {integrity: sha512-9AEqNZZyBx8OdZpxzQlaFEVCSFUM2YXJH46yPOiOpm078k6ZLOCcuAzGum/zK8YBwY+dbahVNbHrbgrAwIRlqw==}
@@ -1452,6 +1452,7 @@ packages:
 
   abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
+    deprecated: Use your platform's native atob() and btoa() methods instead
 
   accepts@1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
@@ -5186,6 +5187,7 @@ packages:
 
   workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
 
   workbox-navigation-preload@6.5.4:
     resolution: {integrity: sha512-IIwf80eO3cr8h6XSQJF+Hxj26rg2RPFVUmJLUlM0+A2GzB4HFbQyKkrgD5y2d84g2IbJzP4B4j5dPBRzamHrng==}
@@ -6552,7 +6554,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.23.2
       '@testing-library/dom': 9.2.0
-      '@types/react-dom': 18.2.23
+      '@types/react-dom': 18.2.24
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
@@ -6656,7 +6658,7 @@ snapshots:
 
   '@types/range-parser@1.2.4': {}
 
-  '@types/react-dom@18.2.23':
+  '@types/react-dom@18.2.24':
     dependencies:
       '@types/react': 18.2.74
 
@@ -7990,14 +7992,14 @@ snapshots:
       find-up: 7.0.0
       parse-gitignore: 2.0.0
 
-  eslint-config-upleveled@7.8.3(@babel/core@7.21.4)(@types/eslint@8.56.6)(@types/node@20.12.3)(@types/react-dom@18.2.23)(@types/react@18.2.74)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3):
+  eslint-config-upleveled@7.8.3(@babel/core@7.21.4)(@types/eslint@8.56.6)(@types/node@20.12.3)(@types/react-dom@18.2.24)(@types/react@18.2.74)(eslint@8.57.0)(globals@14.0.0)(typescript@5.4.3):
     dependencies:
       '@babel/eslint-parser': 7.24.1(@babel/core@7.21.4)(eslint@8.57.0)
       '@next/eslint-plugin-next': 14.1.4
       '@types/eslint': 8.56.6
       '@types/node': 20.12.3
       '@types/react': 18.2.74
-      '@types/react-dom': 18.2.23
+      '@types/react-dom': 18.2.24
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)(typescript@5.4.3)
       '@typescript-eslint/parser': 7.3.1(eslint@8.57.0)(typescript@5.4.3)
       eslint: 8.57.0
