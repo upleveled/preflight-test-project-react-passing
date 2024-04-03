@@ -22,7 +22,7 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
-      - name: Build Next.js app
+      - name: Build create-react-app app
         run: pnpm build
       - name: Run TypeScript Compiler
         run: pnpm tsc
