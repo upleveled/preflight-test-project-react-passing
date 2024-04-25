@@ -13,19 +13,19 @@ importers:
         version: 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.1)
       '@testing-library/react':
         specifier: 14.2.2
-        version: 14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 14.2.2(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@testing-library/user-event':
         specifier: 14.5.2
         version: 14.5.2(@testing-library/dom@9.2.0)
       '@upleveled/react-scripts':
         specifier: 5.0.13
-        version: 5.0.13(eslint@8.57.0)(react@18.2.0)(sass@1.75.0)(type-fest@0.20.2)(typescript@5.4.5)
+        version: 5.0.13(eslint@8.57.0)(react@18.3.0)(sass@1.75.0)(type-fest@0.20.2)(typescript@5.4.5)
       react:
-        specifier: 18.2.0
-        version: 18.2.0
+        specifier: 18.3.0
+        version: 18.3.0
       react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: 18.3.0
+        version: 18.3.0(react@18.3.0)
       sass:
         specifier: 1.75.0
         version: 1.75.0
@@ -4383,10 +4383,10 @@ packages:
       typescript:
         optional: true
 
-  react-dom@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  react-dom@18.3.0:
+    resolution: {integrity: sha512-zaKdLBftQJnvb7FtDIpZtsAIb2MZU087RM8bRDZU8LVCCFYjPTsDZJNFUWPcVz3HFSN1n/caxi0ca4B/aaVQGQ==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.0
 
   react-error-overlay@6.0.11:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
@@ -4404,8 +4404,8 @@ packages:
     resolution: {integrity: sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==}
     engines: {node: '>=0.10.0'}
 
-  react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  react@18.3.0:
+    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -4610,8 +4610,8 @@ packages:
   sax@1.2.4:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
 
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  scheduler@0.23.1:
+    resolution: {integrity: sha512-5GKS5JGfiah1O38Vfa9srZE4s3wdHbwjlCrvIookrg2FO9aIwKLOJXuJQFlEfNcVSOXuaL2hzDeY20uVXcUtrw==}
 
   schema-utils@2.7.0:
     resolution: {integrity: sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==}
@@ -6727,13 +6727,13 @@ snapshots:
       '@jest/globals': 29.7.0
       '@types/jest': 29.5.1
 
-  '@testing-library/react@14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@testing-library/react@14.2.2(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
       '@babel/runtime': 7.23.2
       '@testing-library/dom': 9.2.0
       '@types/react-dom': 18.2.25
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
 
   '@testing-library/user-event@14.5.2(@testing-library/dom@9.2.0)':
     dependencies:
@@ -7054,7 +7054,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@upleveled/react-scripts@5.0.13(eslint@8.57.0)(react@18.2.0)(sass@1.75.0)(type-fest@0.20.2)(typescript@5.4.5)':
+  '@upleveled/react-scripts@5.0.13(eslint@8.57.0)(react@18.3.0)(sass@1.75.0)(type-fest@0.20.2)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.21.4
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.10(react-refresh@0.11.0)(type-fest@0.20.2)(webpack-dev-server@4.13.3(webpack@5.80.0))(webpack@5.80.0)
@@ -7081,7 +7081,7 @@ snapshots:
       postcss-normalize: 10.0.1(browserslist@4.21.5)(postcss@8.4.31)
       postcss-preset-env: 7.8.3(postcss@8.4.31)
       prompts: 2.4.2
-      react: 18.2.0
+      react: 18.3.0
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.1(eslint@8.57.0)(typescript@5.4.5)(webpack@5.80.0)
       react-refresh: 0.11.0
@@ -10483,11 +10483,11 @@ snapshots:
       - supports-color
       - vue-template-compiler
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@18.3.0(react@18.3.0):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 18.3.0
+      scheduler: 0.23.1
 
   react-error-overlay@6.0.11: {}
 
@@ -10499,7 +10499,7 @@ snapshots:
 
   react-refresh@0.11.0: {}
 
-  react@18.2.0:
+  react@18.3.0:
     dependencies:
       loose-envify: 1.4.0
 
@@ -10722,7 +10722,7 @@ snapshots:
 
   sax@1.2.4: {}
 
-  scheduler@0.23.0:
+  scheduler@0.23.1:
     dependencies:
       loose-envify: 1.4.0
 
