@@ -61,8 +61,8 @@ importers:
         specifier: 16.5.0
         version: 16.5.0(typescript@5.4.5)
       stylelint-config-upleveled:
-        specifier: 1.1.1
-        version: 1.1.1(postcss@8.4.38)(stylelint@16.5.0(typescript@5.4.5))
+        specifier: 1.1.2
+        version: 1.1.2(postcss@8.4.38)(stylelint@16.5.0(typescript@5.4.5))
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -2923,6 +2923,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.3:
     resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
@@ -4765,11 +4766,11 @@ packages:
     peerDependencies:
       stylelint: ^16.0.0
 
-  stylelint-config-upleveled@1.1.1:
-    resolution: {integrity: sha512-YxCVwZdkucY38x0zQdF9mTAJEJxTqzY76bjDHddEyZ2KZnyr4G1uIC4US0A5TroK10EfOntLe2M8VcM6aMSvZQ==}
+  stylelint-config-upleveled@1.1.2:
+    resolution: {integrity: sha512-M1sgLBj/f1mBGs8E0T8rabCLl+hOpcMwxG/w0OlVXGN4UnqcLglqe8pEm72IPcXwDeBcJdCUh0YMeYWjH1NDsQ==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
-      stylelint: ^16.3.1
+      stylelint: ^16.5.0
 
   stylelint-scss@6.0.0:
     resolution: {integrity: sha512-N1xV/Ef5PNRQQt9E45unzGvBUN1KZxCI8B4FgN/pMfmyRYbZGVN4y9qWlvOMdScU17c8VVCnjIHTVn38Bb6qSA==}
@@ -10665,7 +10666,7 @@ snapshots:
     dependencies:
       stylelint: 16.5.0(typescript@5.4.5)
 
-  stylelint-config-upleveled@1.1.1(postcss@8.4.38)(stylelint@16.5.0(typescript@5.4.5)):
+  stylelint-config-upleveled@1.1.2(postcss@8.4.38)(stylelint@16.5.0(typescript@5.4.5)):
     dependencies:
       postcss-styled-syntax: 0.6.4(postcss@8.4.38)
       stylelint: 16.5.0(typescript@5.4.5)
