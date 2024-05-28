@@ -40,7 +40,7 @@
     "eslint-config-upleveled": "8.1.9",
     "expect": "29.7.0",
     "prettier": "^3.2.5",
-    "stylelint": "16.6.0",
+    "stylelint": "16.6.1",
     "stylelint-config-upleveled": "1.1.2",
     "typescript": "5.4.5"
   },
