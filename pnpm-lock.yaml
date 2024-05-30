@@ -19,7 +19,7 @@ importers:
         version: 14.5.2(@testing-library/dom@10.1.0)
       '@upleveled/react-scripts':
         specifier: 5.0.13
-        version: 5.0.13(eslint@9.3.0)(react@18.3.1)(sass@1.77.2)(type-fest@0.20.2)(typescript@5.4.5)
+        version: 5.0.13(eslint@9.3.0)(react@18.3.1)(sass@1.77.3)(type-fest@0.20.2)(typescript@5.4.5)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -27,8 +27,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
       sass:
-        specifier: 1.77.2
-        version: 1.77.2
+        specifier: 1.77.3
+        version: 1.77.3
       web-vitals:
         specifier: 4.0.1
         version: 4.0.1
@@ -4484,8 +4484,8 @@ packages:
       sass-embedded:
         optional: true
 
-  sass@1.77.2:
-    resolution: {integrity: sha512-eb4GZt1C3avsX3heBNlrc7I09nyT00IUuo4eFhAbeXWU2fvA7oXI53SxODVAA+zgZCk9aunAZgO+losjR3fAwA==}
+  sass@1.77.3:
+    resolution: {integrity: sha512-WJHo+jmFp0dwRuymPmIovuxHaBntcCyja5hCB0yYY9wWrViEp4kF5Cdai98P72v6FzroPuABqu+ddLMbQWmwzA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -6875,7 +6875,7 @@ snapshots:
       '@typescript-eslint/types': 8.0.0-alpha.16
       eslint-visitor-keys: 3.4.3
 
-  '@upleveled/react-scripts@5.0.13(eslint@9.3.0)(react@18.3.1)(sass@1.77.2)(type-fest@0.20.2)(typescript@5.4.5)':
+  '@upleveled/react-scripts@5.0.13(eslint@9.3.0)(react@18.3.1)(sass@1.77.3)(type-fest@0.20.2)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.21.4
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.10(react-refresh@0.11.0)(type-fest@0.20.2)(webpack-dev-server@4.13.3(webpack@5.80.0))(webpack@5.80.0)
@@ -6908,7 +6908,7 @@ snapshots:
       react-refresh: 0.11.0
       resolve: 1.22.4
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0(sass@1.77.2)(webpack@5.80.0)
+      sass-loader: 12.6.0(sass@1.77.3)(webpack@5.80.0)
       semver: 7.6.2
       source-map-loader: 3.0.2(webpack@5.80.0)
       style-loader: 3.3.2(webpack@5.80.0)
@@ -10328,15 +10328,15 @@ snapshots:
 
   sanitize.css@13.0.0: {}
 
-  sass-loader@12.6.0(sass@1.77.2)(webpack@5.80.0):
+  sass-loader@12.6.0(sass@1.77.3)(webpack@5.80.0):
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
       webpack: 5.80.0
     optionalDependencies:
-      sass: 1.77.2
+      sass: 1.77.3
 
-  sass@1.77.2:
+  sass@1.77.3:
     dependencies:
       chokidar: 3.5.3
       immutable: 4.3.4
