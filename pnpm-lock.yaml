@@ -19,7 +19,7 @@ importers:
         version: 14.5.2(@testing-library/dom@10.1.0)
       '@upleveled/react-scripts':
         specifier: 5.0.13
-        version: 5.0.13(eslint@9.4.0)(react@18.3.1)(sass@1.77.4)(type-fest@0.20.2)(typescript@5.4.5)
+        version: 5.0.13(eslint@9.4.0)(react@18.3.1)(sass@1.77.5)(type-fest@0.20.2)(typescript@5.4.5)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -27,8 +27,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
       sass:
-        specifier: 1.77.4
-        version: 1.77.4
+        specifier: 1.77.5
+        version: 1.77.5
       web-vitals:
         specifier: 4.1.1
         version: 4.1.1
@@ -4238,6 +4238,10 @@ packages:
   q@1.5.1:
     resolution: {integrity: sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==}
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    deprecated: |-
+      You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
+      (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
   qs@6.11.0:
     resolution: {integrity: sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==}
@@ -4490,8 +4494,8 @@ packages:
       sass-embedded:
         optional: true
 
-  sass@1.77.4:
-    resolution: {integrity: sha512-vcF3Ckow6g939GMA4PeU7b2K/9FALXk2KF9J87txdHzXbUF9XRQRwSxcAs/fGaTnJeBFd7UoV22j3lzMLdM0Pw==}
+  sass@1.77.5:
+    resolution: {integrity: sha512-oDfX1mukIlxacPdQqNb6mV2tVCrnE+P3nVYioy72V5tlk56CPNcO4TCuFcaCRKKfJ1M3lH95CleRS+dVKL2qMg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -6884,7 +6888,7 @@ snapshots:
       '@typescript-eslint/types': 8.0.0-alpha.28
       eslint-visitor-keys: 3.4.3
 
-  '@upleveled/react-scripts@5.0.13(eslint@9.4.0)(react@18.3.1)(sass@1.77.4)(type-fest@0.20.2)(typescript@5.4.5)':
+  '@upleveled/react-scripts@5.0.13(eslint@9.4.0)(react@18.3.1)(sass@1.77.5)(type-fest@0.20.2)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.21.4
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.10(react-refresh@0.11.0)(type-fest@0.20.2)(webpack-dev-server@4.13.3(webpack@5.80.0))(webpack@5.80.0)
@@ -6917,7 +6921,7 @@ snapshots:
       react-refresh: 0.11.0
       resolve: 1.22.4
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0(sass@1.77.4)(webpack@5.80.0)
+      sass-loader: 12.6.0(sass@1.77.5)(webpack@5.80.0)
       semver: 7.6.2
       source-map-loader: 3.0.2(webpack@5.80.0)
       style-loader: 3.3.2(webpack@5.80.0)
@@ -10339,15 +10343,15 @@ snapshots:
 
   sanitize.css@13.0.0: {}
 
-  sass-loader@12.6.0(sass@1.77.4)(webpack@5.80.0):
+  sass-loader@12.6.0(sass@1.77.5)(webpack@5.80.0):
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
       webpack: 5.80.0
     optionalDependencies:
-      sass: 1.77.4
+      sass: 1.77.5
 
-  sass@1.77.4:
+  sass@1.77.5:
     dependencies:
       chokidar: 3.5.3
       immutable: 4.3.4
