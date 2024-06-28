@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 .eslintcache
 *.tsbuildinfo
+
+# Avoid ESLint issues in create-react-app declaration file
+src/react-app-env.d.ts
