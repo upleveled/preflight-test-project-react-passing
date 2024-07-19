@@ -29,15 +29,15 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "sass": "1.77.8",
-    "web-vitals": "4.2.1"
+    "web-vitals": "4.2.2"
   },
   "devDependencies": {
     "@jest/globals": "29.7.0",
-    "@types/node": "20.14.10",
+    "@types/node": "20.14.11",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "eslint": "9.7.0",
-    "eslint-config-upleveled": "8.5.0",
+    "eslint-config-upleveled": "8.6.9",
     "expect": "29.7.0",
     "prettier": "^3.2.5",
     "stylelint": "16.7.0",
