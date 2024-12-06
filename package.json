@@ -34,7 +34,7 @@
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "@types/node": "22.10.1",
-    "@types/react": "19.0.0",
+    "@types/react": "19.0.1",
     "@types/react-dom": "19.0.1",
     "eslint": "9.16.0",
     "eslint-config-upleveled": "8.12.1",
@@ -44,5 +44,5 @@
     "stylelint-config-upleveled": "1.1.5",
     "typescript": "5.7.2"
   },
-  "packageManager": "pnpm@9.14.4"
+  "packageManager": "pnpm@9.15.0"
 }
