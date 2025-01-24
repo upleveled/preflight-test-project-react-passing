@@ -37,7 +37,7 @@
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "eslint": "9.18.0",
-    "eslint-config-upleveled": "8.12.1",
+    "eslint-config-upleveled": "9.0.0",
     "expect": "29.7.0",
     "prettier": "^3.2.5",
     "stylelint": "16.13.2",
