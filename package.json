@@ -46,7 +46,7 @@
   },
   "packageManager": "pnpm@10.3.0",
   "pnpm": {
-    "neverBuiltDependencies": [
+    "ignoredBuiltDependencies": [
       "core-js",
       "core-js-pure"
     ]
