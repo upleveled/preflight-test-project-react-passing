@@ -44,7 +44,7 @@
     "stylelint-config-upleveled": "1.1.9",
     "typescript": "5.8.2"
   },
-  "packageManager": "pnpm@10.6.1",
+  "packageManager": "pnpm@10.6.2",
   "pnpm": {
     "ignoredBuiltDependencies": [
       "core-js",
