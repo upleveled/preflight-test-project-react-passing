@@ -40,11 +40,11 @@
     "eslint-config-upleveled": "9.2.3",
     "expect": "29.7.0",
     "prettier": "^3.2.5",
-    "stylelint": "16.16.0",
+    "stylelint": "16.17.0",
     "stylelint-config-upleveled": "1.1.9",
     "typescript": "5.8.2"
   },
-  "packageManager": "pnpm@10.6.5",
+  "packageManager": "pnpm@10.7.0",
   "pnpm": {
     "ignoredBuiltDependencies": [
       "core-js",
