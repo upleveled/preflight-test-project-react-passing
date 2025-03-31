@@ -28,7 +28,7 @@
     "@upleveled/react-scripts": "5.1.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "sass": "1.86.0",
+    "sass": "1.86.1",
     "web-vitals": "4.2.4"
   },
   "devDependencies": {
