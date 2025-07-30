@@ -18,8 +18,8 @@ importers:
         specifier: 14.6.1
         version: 14.6.1(@testing-library/dom@10.1.0)
       '@upleveled/react-scripts':
-        specifier: 5.1.2
-        version: 5.1.2(eslint@9.32.0(jiti@1.18.2))(react@19.1.1)(sass@1.89.2)(type-fest@0.20.2)(typescript@5.8.3)
+        specifier: 5.1.3
+        version: 5.1.3(eslint@9.32.0(jiti@1.18.2))(react@19.1.1)(sass@1.89.2)(type-fest@0.20.2)(typescript@5.8.3)
       react:
         specifier: 19.1.1
         version: 19.1.1
@@ -1616,8 +1616,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@upleveled/react-scripts@5.1.2':
-    resolution: {integrity: sha512-PSq3Kkv84LQQEDO3AWEIhY5s54nHJyRjqGjoGyEI52iT3tQprUlKQZg7sIjUXlMtkjnTLc92NILFvn5RFkv7OA==}
+  '@upleveled/react-scripts@5.1.3':
+    resolution: {integrity: sha512-Q3zkCumAYVQFaSLHGylROK8ZjR1KNM/3OB9zJ4P+p7X+vgjevBwV43T5+/AUUQREOIzrxuquKNxUPjhLfbMO/Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -7426,7 +7426,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@upleveled/react-scripts@5.1.2(eslint@9.32.0(jiti@1.18.2))(react@19.1.1)(sass@1.89.2)(type-fest@0.20.2)(typescript@5.8.3)':
+  '@upleveled/react-scripts@5.1.3(eslint@9.32.0(jiti@1.18.2))(react@19.1.1)(sass@1.89.2)(type-fest@0.20.2)(typescript@5.8.3)':
     dependencies:
       '@babel/core': 7.27.4
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.10(react-refresh@0.11.0)(type-fest@0.20.2)(webpack-dev-server@4.13.3(webpack@5.80.0))(webpack@5.80.0)
