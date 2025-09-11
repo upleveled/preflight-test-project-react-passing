@@ -41,7 +41,7 @@
     "expect": "30.1.2",
     "prettier": "^3.2.5",
     "stylelint": "16.24.0",
-    "stylelint-config-upleveled": "2.0.1",
+    "stylelint-config-upleveled": "2.0.2",
     "typescript": "5.9.2"
   },
   "packageManager": "pnpm@10.15.1",
