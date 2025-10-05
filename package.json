@@ -32,13 +32,13 @@
     "web-vitals": "5.1.0"
   },
   "devDependencies": {
-    "@jest/globals": "30.1.2",
+    "@jest/globals": "30.2.0",
     "@types/node": "24.5.2",
     "@types/react": "19.1.14",
     "@types/react-dom": "19.1.9",
     "eslint": "9.36.0",
     "eslint-config-upleveled": "9.4.0",
-    "expect": "30.1.2",
+    "expect": "30.2.0",
     "prettier": "^3.2.5",
     "stylelint": "16.24.0",
     "stylelint-config-upleveled": "2.0.2",
