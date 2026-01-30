@@ -49,8 +49,8 @@ importers:
         specifier: 9.39.2
         version: 9.39.2(jiti@1.18.2)
       eslint-config-upleveled:
-        specifier: 9.4.5
-        version: 9.4.5(@babel/core@7.27.4)(@types/node@25.0.10)(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))(globals@16.5.0)(typescript@5.9.3)
+        specifier: 9.4.6
+        version: 9.4.6(@babel/core@7.27.4)(@types/node@25.0.10)(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))(globals@16.5.0)(typescript@5.9.3)
       expect:
         specifier: 30.2.0
         version: 30.2.0
@@ -1867,6 +1867,9 @@ packages:
     resolution: {integrity: sha512-FmeCCAenzH0KH381SPT5FZmiA/TmpndpcaShhfgEN9eCVjnFBqq3l1xrI42y8+PPLI6hypzou4GXw00WHmPBLQ==}
     engines: {node: '>= 0.4'}
 
+  array-timsort@1.0.3:
+    resolution: {integrity: sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ==}
+
   array-union@2.1.0:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
@@ -2185,6 +2188,10 @@ packages:
   commander@8.3.0:
     resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
     engines: {node: '>= 12'}
+
+  comment-json@4.5.1:
+    resolution: {integrity: sha512-taEtr3ozUmOB7it68Jll7s0Pwm+aoiHyXKrEC8SEodL4rNpdfDLqa7PfBlrgFoCNNdR8ImL+muti5IGvktJAAg==}
+    engines: {node: '>= 6'}
 
   comment-parser@1.4.1:
     resolution: {integrity: sha512-buhp5kePrmda3vhc5B9t7pUQXAb2Tnd0qgpkIhPhkHXxJpiPJ11H0ZEU0oBpJ2QztSbzG/ZxMj/CHsYJqRHmyg==}
@@ -2666,8 +2673,8 @@ packages:
     peerDependencies:
       eslint: ^9.5.0
 
-  eslint-config-upleveled@9.4.5:
-    resolution: {integrity: sha512-LiexZAruisiTch+DsSp1r2DclruhxtaonHNOAUhhnW6E4owqQvyyJQ+NWWgx2emZqbcq90+CIe7Q5HROHK5lwg==}
+  eslint-config-upleveled@9.4.6:
+    resolution: {integrity: sha512-3N3w4NbA1EB76CuLDz/ebtDiROiK6M5LbvoAWKja/hpgaUqwtc+FmKwc4FKsNCL3KGW88MWA6j58X10lPozgtw==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
@@ -7835,6 +7842,8 @@ snapshots:
       is-string: 1.1.1
       math-intrinsics: 1.1.0
 
+  array-timsort@1.0.3: {}
+
   array-union@2.1.0: {}
 
   array.prototype.findlastindex@1.2.6:
@@ -8233,6 +8242,12 @@ snapshots:
   commander@7.2.0: {}
 
   commander@8.3.0: {}
+
+  comment-json@4.5.1:
+    dependencies:
+      array-timsort: 1.0.3
+      core-util-is: 1.0.3
+      esprima: 4.0.1
 
   comment-parser@1.4.1: {}
 
@@ -8742,7 +8757,7 @@ snapshots:
       '@eslint/compat': 1.4.0(eslint@9.39.2(jiti@1.18.2))
       eslint: 9.39.2(jiti@1.18.2)
 
-  eslint-config-upleveled@9.4.5(@babel/core@7.27.4)(@types/node@25.0.10)(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))(globals@16.5.0)(typescript@5.9.3):
+  eslint-config-upleveled@9.4.6(@babel/core@7.27.4)(@types/node@25.0.10)(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))(globals@16.5.0)(typescript@5.9.3):
     dependencies:
       '@babel/eslint-parser': 7.28.6(@babel/core@7.27.4)(eslint@9.39.2(jiti@1.18.2))
       '@eslint/compat': 2.0.1(eslint@9.39.2(jiti@1.18.2))
@@ -8753,6 +8768,7 @@ snapshots:
       '@types/react-dom': 19.2.3(@types/react@19.2.9)
       '@typescript-eslint/eslint-plugin': 8.53.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3)
       '@typescript-eslint/parser': 8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3)
+      comment-json: 4.5.1
       eslint: 9.39.2(jiti@1.18.2)
       eslint-config-flat-gitignore: 2.1.0(eslint@9.39.2(jiti@1.18.2))
       eslint-import-resolver-typescript: 4.4.4(eslint-plugin-import-x@4.16.1(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@1.18.2)))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))
