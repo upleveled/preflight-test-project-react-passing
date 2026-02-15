@@ -37,8 +37,8 @@ importers:
         specifier: 30.2.0
         version: 30.2.0
       '@types/node':
-        specifier: 25.2.1
-        version: 25.2.1
+        specifier: 25.2.2
+        version: 25.2.2
       '@types/react':
         specifier: 19.2.13
         version: 19.2.13
@@ -50,7 +50,7 @@ importers:
         version: 9.39.2(jiti@1.18.2)
       eslint-config-upleveled:
         specifier: 9.4.6
-        version: 9.4.6(@babel/core@7.27.4)(@types/node@25.2.1)(@types/react-dom@19.2.3(@types/react@19.2.13))(@types/react@19.2.13)(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))(globals@16.5.0)(typescript@5.9.3)
+        version: 9.4.6(@babel/core@7.27.4)(@types/node@25.2.2)(@types/react-dom@19.2.3(@types/react@19.2.13))(@types/react@19.2.13)(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))(globals@16.5.0)(typescript@5.9.3)
       expect:
         specifier: 30.2.0
         version: 30.2.0
@@ -1469,8 +1469,8 @@ packages:
   '@types/mime@3.0.1':
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
 
-  '@types/node@25.2.1':
-    resolution: {integrity: sha512-CPrnr8voK8vC6eEtyRzvMpgp3VyVRhgclonE7qYi6P9sXwYb59ucfrnmFBTaP0yUi8Gk4yZg/LlTJULGxvTNsg==}
+  '@types/node@25.2.2':
+    resolution: {integrity: sha512-BkmoP5/FhRYek5izySdkOneRyXYN35I860MFAGupTdebyE66uZaR+bXLHq8k4DirE5DwQi3NuhvRU1jqTVwUrQ==}
 
   '@types/parse-json@4.0.0':
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -6921,7 +6921,7 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 30.2.0
       '@jest/types': 30.2.0
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       jest-mock: 30.2.0
 
   '@jest/expect-utils@30.2.0':
@@ -6939,7 +6939,7 @@ snapshots:
     dependencies:
       '@jest/types': 30.2.0
       '@sinonjs/fake-timers': 13.0.5
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       jest-message-util: 30.2.0
       jest-mock: 30.2.0
       jest-util: 30.2.0
@@ -6957,7 +6957,7 @@ snapshots:
 
   '@jest/pattern@30.0.1':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       jest-regex-util: 30.0.1
 
   '@jest/schemas@30.0.5':
@@ -6997,7 +6997,7 @@ snapshots:
       '@jest/schemas': 30.0.5
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -7310,20 +7310,20 @@ snapshots:
   '@types/body-parser@1.19.2':
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/bonjour@3.5.10':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/connect-history-api-fallback@1.3.5':
     dependencies:
       '@types/express-serve-static-core': 4.17.33
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/connect@3.4.35':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/eslint-scope@3.7.4':
     dependencies:
@@ -7341,7 +7341,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.17.33':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
 
@@ -7356,7 +7356,7 @@ snapshots:
 
   '@types/http-proxy@1.17.10':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -7375,7 +7375,7 @@ snapshots:
 
   '@types/mime@3.0.1': {}
 
-  '@types/node@25.2.1':
+  '@types/node@25.2.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -7397,7 +7397,7 @@ snapshots:
 
   '@types/resolve@1.17.1':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/retry@0.12.0': {}
 
@@ -7408,11 +7408,11 @@ snapshots:
   '@types/serve-static@1.15.1':
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/sockjs@0.3.33':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/stack-utils@2.0.3': {}
 
@@ -7420,7 +7420,7 @@ snapshots:
 
   '@types/ws@8.5.4':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/yargs-parser@21.0.0': {}
 
@@ -8757,13 +8757,13 @@ snapshots:
       '@eslint/compat': 1.4.0(eslint@9.39.2(jiti@1.18.2))
       eslint: 9.39.2(jiti@1.18.2)
 
-  eslint-config-upleveled@9.4.6(@babel/core@7.27.4)(@types/node@25.2.1)(@types/react-dom@19.2.3(@types/react@19.2.13))(@types/react@19.2.13)(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))(globals@16.5.0)(typescript@5.9.3):
+  eslint-config-upleveled@9.4.6(@babel/core@7.27.4)(@types/node@25.2.2)(@types/react-dom@19.2.3(@types/react@19.2.13))(@types/react@19.2.13)(@typescript-eslint/utils@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2)))(eslint@9.39.2(jiti@1.18.2))(globals@16.5.0)(typescript@5.9.3):
     dependencies:
       '@babel/eslint-parser': 7.28.6(@babel/core@7.27.4)(eslint@9.39.2(jiti@1.18.2))
       '@eslint/compat': 2.0.1(eslint@9.39.2(jiti@1.18.2))
       '@next/eslint-plugin-next': 16.1.4
       '@stylistic/eslint-plugin': 5.7.0(eslint@9.39.2(jiti@1.18.2))
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       '@types/react': 19.2.13
       '@types/react-dom': 19.2.3(@types/react@19.2.13)
       '@typescript-eslint/eslint-plugin': 8.53.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3))(eslint@9.39.2(jiti@1.18.2))(typescript@5.9.3)
@@ -9843,7 +9843,7 @@ snapshots:
   jest-haste-map@30.2.0:
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -9877,7 +9877,7 @@ snapshots:
   jest-mock@30.2.0:
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       jest-util: 30.2.0
 
   jest-regex-util@30.0.1: {}
@@ -9911,7 +9911,7 @@ snapshots:
   jest-util@30.2.0:
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       chalk: 4.1.2
       ci-info: 4.3.1
       graceful-fs: 4.2.11
@@ -9919,19 +9919,19 @@ snapshots:
 
   jest-worker@26.6.2:
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       merge-stream: 2.0.0
       supports-color: 7.2.0
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
   jest-worker@30.2.0:
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       '@ungap/structured-clone': 1.3.0
       jest-util: 30.2.0
       merge-stream: 2.0.0
