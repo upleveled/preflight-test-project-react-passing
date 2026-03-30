@@ -42,7 +42,7 @@
     "prettier": "^3.2.5",
     "stylelint": "17.5.0",
     "stylelint-config-upleveled": "2.0.5",
-    "typescript": "5.9.3"
+    "typescript": "6.0.2"
   },
   "packageManager": "pnpm@10.32.1"
 }
