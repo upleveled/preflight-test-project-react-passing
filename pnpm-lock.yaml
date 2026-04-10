@@ -19,7 +19,7 @@ importers:
         version: 14.6.1(@testing-library/dom@10.1.0)
       '@upleveled/react-scripts':
         specifier: 5.1.3
-        version: 5.1.3(eslint@10.1.0(jiti@1.18.2))(react@19.2.4)(sass@1.98.0)(type-fest@0.20.2)(typescript@6.0.2)
+        version: 5.1.3(eslint@10.1.0(jiti@1.18.2))(react@19.2.4)(sass@1.99.0)(type-fest@0.20.2)(typescript@6.0.2)
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -27,8 +27,8 @@ importers:
         specifier: 19.2.4
         version: 19.2.4(react@19.2.4)
       sass:
-        specifier: 1.98.0
-        version: 1.98.0
+        specifier: 1.99.0
+        version: 1.99.0
       web-vitals:
         specifier: 5.2.0
         version: 5.2.0
@@ -4882,8 +4882,8 @@ packages:
       sass-embedded:
         optional: true
 
-  sass@1.98.0:
-    resolution: {integrity: sha512-+4N/u9dZ4PrgzGgPlKnaaRQx64RO0JBKs9sDhQ2pLgN6JQZ25uPQZKQYaBJU48Kd5BxgXoJ4e09Dq7nMcOUW3A==}
+  sass@1.99.0:
+    resolution: {integrity: sha512-kgW13M54DUB7IsIRM5LvJkNlpH+WhMpooUcaWGFARkF1Tc82v9mIWkCbCYf+MBvpIUBSeSOTilpZjEPr2VYE6Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -7535,7 +7535,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@upleveled/react-scripts@5.1.3(eslint@10.1.0(jiti@1.18.2))(react@19.2.4)(sass@1.98.0)(type-fest@0.20.2)(typescript@6.0.2)':
+  '@upleveled/react-scripts@5.1.3(eslint@10.1.0(jiti@1.18.2))(react@19.2.4)(sass@1.99.0)(type-fest@0.20.2)(typescript@6.0.2)':
     dependencies:
       '@babel/core': 7.27.4
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.10(react-refresh@0.11.0)(type-fest@0.20.2)(webpack-dev-server@4.13.3(webpack@5.80.0))(webpack@5.80.0)
@@ -7568,7 +7568,7 @@ snapshots:
       react-refresh: 0.11.0
       resolve: 1.22.11
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0(sass@1.98.0)(webpack@5.80.0)
+      sass-loader: 12.6.0(sass@1.99.0)(webpack@5.80.0)
       semver: 7.7.4
       source-map-loader: 3.0.2(webpack@5.80.0)
       style-loader: 3.3.2(webpack@5.80.0)
@@ -11109,15 +11109,15 @@ snapshots:
 
   sanitize.css@13.0.0: {}
 
-  sass-loader@12.6.0(sass@1.98.0)(webpack@5.80.0):
+  sass-loader@12.6.0(sass@1.99.0)(webpack@5.80.0):
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
       webpack: 5.80.0
     optionalDependencies:
-      sass: 1.98.0
+      sass: 1.99.0
 
-  sass@1.98.0:
+  sass@1.99.0:
     dependencies:
       chokidar: 4.0.0
       immutable: 5.1.5
