@@ -29,14 +29,14 @@
     "react": "19.2.6",
     "react-dom": "19.2.6",
     "sass": "1.100.0",
-    "web-vitals": "5.2.0"
+    "web-vitals": "5.3.0"
   },
   "devDependencies": {
     "@jest/globals": "30.4.1",
     "@types/node": "25.9.1",
     "@types/react": "19.2.15",
     "@types/react-dom": "19.2.3",
-    "eslint": "10.4.0",
+    "eslint": "10.4.1",
     "eslint-config-upleveled": "10.0.0",
     "expect": "30.4.1",
     "prettier": "^3.2.5",
