@@ -1,10 +1,10 @@
 # Allow build scripts for trusted dependencies
 # - https://pnpm.io/settings#allowbuilds
 allowBuilds:
-  - @parcel/watcher: true
-  - core-js: false
-  - core-js-pure: false
-  - unrs-resolver: false
+  '@parcel/watcher': true
+  core-js: false
+  core-js-pure: false
+  unrs-resolver: false
 
 # Prevents installation of packages newer than 7 days
 # to mitigate supply chain risks
