@@ -1,8 +1,10 @@
-# Ignore build scripts for untrusted dependencies
-# - https://pnpm.io/settings#ignoredbuiltdependencies
-ignoredBuiltDependencies:
-  - core-js
-  - core-js-pure
+# Allow build scripts for trusted dependencies
+# - https://pnpm.io/settings#allowbuilds
+allowBuilds:
+  '@parcel/watcher': true
+  core-js: false
+  core-js-pure: false
+  unrs-resolver: false
 
 # Prevents installation of packages newer than 7 days
 # to mitigate supply chain risks
@@ -12,11 +14,6 @@ minimumReleaseAgeExclude:
   - "@upleveled/*"
   - eslint-config-upleveled
   - stylelint-config-upleveled
-
-# Allow build scripts for trusted dependencies
-# - https://pnpm.io/settings#onlybuiltdependencies
-onlyBuiltDependencies:
-  - unrs-resolver
 
 # Fail on pnpm ignored build scripts
 # - https://pnpm.io/settings#strictdepbuilds
