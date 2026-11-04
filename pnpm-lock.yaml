@@ -218,7 +218,7 @@ importers:
         version: 14.6.8(@testing-library/dom@10.1.0)
       '@upleveled/react-scripts':
         specifier: 5.1.4
-        version: 5.1.4(clean-css@5.3.2)(csso@4.2.0)(debug@4.4.3(supports-color@10.2.2))(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(react@19.3.1)(sass@1.106.1)(supports-color@10.2.2)(type-fest@0.20.2)(typescript@6.0.3)
+        version: 5.1.4(clean-css@5.3.2)(csso@4.2.0)(debug@4.4.3(supports-color@10.2.2))(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(react@19.3.1)(sass@1.107.0)(supports-color@10.2.2)(type-fest@0.20.2)(typescript@6.0.3)
       react:
         specifier: 19.3.1
         version: 19.3.1
@@ -226,8 +226,8 @@ importers:
         specifier: 19.3.1
         version: 19.3.1(react@19.3.1)
       sass:
-        specifier: 1.106.1
-        version: 1.106.1
+        specifier: 1.107.0
+        version: 1.107.0
       web-vitals:
         specifier: 6.2.3
         version: 6.2.3
@@ -236,8 +236,8 @@ importers:
         specifier: 30.5.2
         version: 30.5.2(supports-color@10.2.2)
       '@types/node':
-        specifier: 26.6.5
-        version: 26.6.5
+        specifier: 26.6.6
+        version: 26.6.6
       '@types/react':
         specifier: 19.3.0
         version: 19.3.0
@@ -249,7 +249,7 @@ importers:
         version: 10.13.0(jiti@1.18.2)(supports-color@10.2.2)
       eslint-config-upleveled:
         specifier: 11.0.3
-        version: 11.0.3(@types/node@26.6.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9(supports-color@10.2.2))(eslint-plugin-import@2.29.1)(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(globals@17.13.0)(supports-color@10.2.2)(typescript@6.0.3)
+        version: 11.0.3(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9(supports-color@10.2.2))(eslint-plugin-import@2.29.1)(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(globals@17.13.0)(supports-color@10.2.2)(typescript@6.0.3)
       expect:
         specifier: 30.5.2
         version: 30.5.2
@@ -1715,8 +1715,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@26.6.5':
-    resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
+  '@types/node@26.6.6':
+    resolution: {integrity: sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==}
 
   '@types/parse-json@4.0.0':
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -5244,8 +5244,8 @@ packages:
       sass-embedded:
         optional: true
 
-  sass@1.106.1:
-    resolution: {integrity: sha512-kD+Gi66vycZcbJt+42NC4z4PXNMcCajVrJPhqoKKXy5cOBMmJQt052CxIBcRjwYXeImHYOpu/ydWWGZQIenl7A==}
+  sass@1.107.0:
+    resolution: {integrity: sha512-+whPilvVNoAD57xvdIPLQT0gXo4RD1lHYw+Uw8zYHlojaeaMDxK14tc0JmEsz/XMns48h3lpypisMP+3E8eHQA==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -7282,7 +7282,7 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 30.5.2
       '@jest/types': 30.5.1
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       jest-mock: 30.5.2
 
   '@jest/expect-utils@30.5.2':
@@ -7300,7 +7300,7 @@ snapshots:
     dependencies:
       '@jest/types': 30.5.1
       '@sinonjs/fake-timers': 15.4.0
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       jest-message-util: 30.5.1
       jest-mock: 30.5.2
       jest-util: 30.5.1
@@ -7318,7 +7318,7 @@ snapshots:
 
   '@jest/pattern@30.5.0':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       jest-regex-util: 30.5.0
 
   '@jest/schemas@30.5.0':
@@ -7357,7 +7357,7 @@ snapshots:
       '@jest/schemas': 30.5.0
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -7674,20 +7674,20 @@ snapshots:
   '@types/body-parser@1.19.2':
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/bonjour@3.5.10':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/connect-history-api-fallback@1.3.5':
     dependencies:
       '@types/express-serve-static-core': 4.17.33
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/connect@3.4.35':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/debug@4.1.13':
     dependencies:
@@ -7711,7 +7711,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.17.33':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
 
@@ -7726,7 +7726,7 @@ snapshots:
 
   '@types/http-proxy@1.17.10':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -7747,7 +7747,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@26.6.5':
+  '@types/node@26.6.6':
     dependencies:
       undici-types: 8.9.0
 
@@ -7769,7 +7769,7 @@ snapshots:
 
   '@types/resolve@1.17.1':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/retry@0.12.0': {}
 
@@ -7780,11 +7780,11 @@ snapshots:
   '@types/serve-static@1.15.1':
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/sockjs@0.3.33':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/stack-utils@2.0.3': {}
 
@@ -7792,7 +7792,7 @@ snapshots:
 
   '@types/ws@8.5.4':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/yargs-parser@21.0.0': {}
 
@@ -7952,7 +7952,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@upleveled/react-scripts@5.1.4(clean-css@5.3.2)(csso@4.2.0)(debug@4.4.3(supports-color@10.2.2))(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(react@19.3.1)(sass@1.106.1)(supports-color@10.2.2)(type-fest@0.20.2)(typescript@6.0.3)':
+  '@upleveled/react-scripts@5.1.4(clean-css@5.3.2)(csso@4.2.0)(debug@4.4.3(supports-color@10.2.2))(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(react@19.3.1)(sass@1.107.0)(supports-color@10.2.2)(type-fest@0.20.2)(typescript@6.0.3)':
     dependencies:
       '@babel/core': 7.27.4(supports-color@10.2.2)
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.10(react-refresh@0.11.0)(type-fest@0.20.2)(webpack-dev-server@4.13.3(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.80.0))(webpack@5.80.0)
@@ -7985,7 +7985,7 @@ snapshots:
       react-refresh: 0.11.0
       resolve: 1.22.12
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0(sass@1.106.1)(webpack@5.80.0)
+      sass-loader: 12.6.0(sass@1.107.0)(webpack@5.80.0)
       semver: 7.8.5
       source-map-loader: 3.0.2(webpack@5.80.0)
       style-loader: 3.3.2(webpack@5.80.0)
@@ -9152,13 +9152,13 @@ snapshots:
       '@eslint/compat': 2.1.1(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))
       eslint: 10.13.0(jiti@1.18.2)(supports-color@10.2.2)
 
-  eslint-config-upleveled@11.0.3(@types/node@26.6.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9(supports-color@10.2.2))(eslint-plugin-import@2.29.1)(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(globals@17.13.0)(supports-color@10.2.2)(typescript@6.0.3):
+  eslint-config-upleveled@11.0.3(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9(supports-color@10.2.2))(eslint-plugin-import@2.29.1)(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(globals@17.13.0)(supports-color@10.2.2)(typescript@6.0.3):
     dependencies:
       '@eslint-react/kit': 5.28.6(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
       '@eslint/compat': 2.1.1(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))
       '@next/eslint-plugin-next': 16.4.2(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       '@types/react': 19.3.0
       '@types/react-dom': 19.3.0(@types/react@19.3.0)
       '@typescript-eslint/eslint-plugin': 8.72.0(@typescript-eslint/parser@8.72.0(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.13.0(jiti@1.18.2)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
@@ -10232,7 +10232,7 @@ snapshots:
     dependencies:
       '@jest/types': 30.5.1
       '@parcel/watcher': 2.6.0
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       fdir: 6.5.0(picomatch@4.0.7)
@@ -10266,7 +10266,7 @@ snapshots:
     dependencies:
       '@jest/expect-utils': 30.5.2
       '@jest/types': 30.5.1
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       jest-util: 30.5.1
 
   jest-regex-util@30.5.0: {}
@@ -10300,7 +10300,7 @@ snapshots:
   jest-util@30.5.1:
     dependencies:
       '@jest/types': 30.5.1
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       chalk: 4.1.2
       ci-info: 4.4.0
       graceful-fs: 4.2.11
@@ -10308,19 +10308,19 @@ snapshots:
 
   jest-worker@26.6.2:
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       merge-stream: 2.0.0
       supports-color: 7.2.0
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
   jest-worker@30.5.1:
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       '@ungap/structured-clone': 1.3.0
       jest-util: 30.5.1
       merge-stream: 2.0.0
@@ -11685,15 +11685,15 @@ snapshots:
 
   sanitize.css@13.0.0: {}
 
-  sass-loader@12.6.0(sass@1.106.1)(webpack@5.80.0):
+  sass-loader@12.6.0(sass@1.107.0)(webpack@5.80.0):
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
       webpack: 5.80.0
     optionalDependencies:
-      sass: 1.106.1
+      sass: 1.107.0
 
-  sass@1.106.1:
+  sass@1.107.0:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.5
