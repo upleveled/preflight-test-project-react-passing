@@ -40,9 +40,9 @@
     "eslint-config-upleveled": "11.0.3",
     "expect": "30.5.2",
     "prettier": "^3.2.5",
-    "stylelint": "17.16.0",
+    "stylelint": "18.0.0",
     "stylelint-config-upleveled": "2.0.5",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "devEngines": {
     "packageManager": {
