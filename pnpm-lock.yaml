@@ -214,8 +214,8 @@ importers:
         specifier: 16.3.3
         version: 16.3.3(@testing-library/dom@10.1.0)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@testing-library/user-event':
-        specifier: 14.6.10
-        version: 14.6.10(@testing-library/dom@10.1.0)
+        specifier: 14.6.11
+        version: 14.6.11(@testing-library/dom@10.1.0)
       '@upleveled/react-scripts':
         specifier: 5.1.4
         version: 5.1.4(clean-css@5.3.2)(csso@4.2.0)(debug@4.4.3(supports-color@10.2.2))(eslint@10.15.0(jiti@1.18.2)(supports-color@10.2.2))(react@19.3.1)(sass@1.108.2)(supports-color@10.2.2)(type-fest@0.20.2)(typescript@6.0.3)
@@ -1639,8 +1639,8 @@ packages:
       '@types/react-dom':
         optional: true
 
-  '@testing-library/user-event@14.6.10':
-    resolution: {integrity: sha512-tA4stGNp3mLGOGO+lh87UA56Tz4c8NVGBSkyIF58O+W/bs2Re9BCI9xihnL70+DsThncFznE0skS88SM1D2hyg==}
+  '@testing-library/user-event@14.6.11':
+    resolution: {integrity: sha512-EiiRwfusxx0OiXIFiFAwgNSqeiH3cOer6UVUBd1J9kOoP9+MLO0qHW1aEwMjcZxw6KbBSgrV5fmD2AcWrvZ+VA==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
@@ -7670,7 +7670,7 @@ snapshots:
       '@types/react': 19.3.0
       '@types/react-dom': 19.3.0(@types/react@19.3.0)
 
-  '@testing-library/user-event@14.6.10(@testing-library/dom@10.1.0)':
+  '@testing-library/user-event@14.6.11(@testing-library/dom@10.1.0)':
     dependencies:
       '@testing-library/dom': 10.1.0
 
